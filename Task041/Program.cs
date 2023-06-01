@@ -10,7 +10,7 @@ int [] array = new int [M];
 for(int i = 0; i < M; i++)
 {
     Console.Write($"Введите элемент массива {i + 1}: ");
-    array[i] = Convert.ToInt32(Console.ReadLine());
+    array[i] = Convert.ToInt32(Console.ReadLine().ToString());
 }
 int element (int[] array)
 {
